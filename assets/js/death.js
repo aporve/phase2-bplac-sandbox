@@ -2893,7 +2893,7 @@ function addBeneficiaryNew(event) {
     if (buttonCount > 6) {
       buttonCount = 6
       $("#warning_parent_addBeneficiary").show()
-      $("#addBeneficiary_upload_warning").text("Sorry, you reached the maximum number of 6 beneficiaries for any claim request. You may review your policy details on ePlan or send us an e-mail at philamlife@aia.com for any concerns regarding your policy information.")
+      $("#addBeneficiary_upload_warning").text("Sorry. You have reached the maximum number of beneficiaries for your claim request. Should you wish to add more beneficiaries, send us an email through BPIAIA.customerservice@aia.com.")
       $(".btn2").prop("disable", true)
       $("#popUp").modal("show")
     } else {
